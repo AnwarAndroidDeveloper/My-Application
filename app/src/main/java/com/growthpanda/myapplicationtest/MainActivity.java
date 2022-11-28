@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 count=count+1;
                 textView.setText("You have pressed : "+count+" times");
                 Toast.makeText(MainActivity.this, "Count = "+count, Toast.LENGTH_SHORT).show();
